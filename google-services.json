@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "265228171949",
+    "project_id": "nextdayapp-6a1f1",
+    "storage_bucket": "nextdayapp-6a1f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265228171949:android:9353dc58bdc9651f85e424",
+        "android_client_info": {
+          "package_name": "com.example.nextdayapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH-nOtnSayc_51fDieVJRF_cK5g8UUSjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
