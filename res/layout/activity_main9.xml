@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99bc85"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="FAQ"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"/>
+
+    <ExpandableListView
+        android:id="@+id/exListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99bc85"
+        android:layout_marginTop="75dp"
+        android:padding="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

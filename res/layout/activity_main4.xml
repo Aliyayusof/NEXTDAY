@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99bc85"
+    tools:context=".MainActivity4">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Planner Categories"
+        android:textAlignment="textStart"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="490dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.539">
+
+        <Button
+            android:id="@+id/btnFinance"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="#99bc85"
+            android:drawableLeft="@drawable/finance"
+            android:text="Finance"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/btnHealth"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="150dp"
+            android:backgroundTint="#99bc85"
+            android:drawableLeft="@drawable/hospital"
+            android:text="Health"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/btnWork"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="250dp"
+            android:backgroundTint="#99bc85"
+            android:drawableLeft="@drawable/work"
+            android:text="Work"
+            app:cornerRadius="0dp" />
+
+        <Button
+            android:id="@+id/btnToDo"
+            android:layout_width="250dp"
+            android:layout_height="90dp"
+            android:layout_gravity="top|center_horizontal"
+            android:layout_marginTop="350dp"
+            android:backgroundTint="#99bc85"
+            android:drawableLeft="@drawable/todolist"
+            android:text="To-Do List"
+            app:cornerRadius="0dp" />
+    </androidx.cardview.widget.CardView>
+
+    <FrameLayout
+        android:id="@+id/flFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnInfo"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/info"
+        app:iconGravity="textStart"
+        app:iconPadding="2dp"
+        app:iconSize="25dp"
+        app:iconTint="#99bc85"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.91" />
+
+    <Button
+        android:id="@+id/btnManual"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/white"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/baseline_menu_book_24"
+        app:iconGravity="textStart"
+        app:iconPadding="2dp"
+        app:iconSize="25dp"
+        app:iconTint="#99bc85"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.983" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
